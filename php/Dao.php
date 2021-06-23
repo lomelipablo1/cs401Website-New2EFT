@@ -2,9 +2,9 @@
 
 class Dao {
 
-  private $host = 'us-cdbr-iron-east-01.cleardb.net';
-  private $dbname = 'heroku_b2c5f55c93b1823';
-  private $username = 'b2dde2f0af7810';
+  private $host = '';
+  private $dbname = '';
+  private $username = '';
   private $password = '';
 
   public function getConnection() {
